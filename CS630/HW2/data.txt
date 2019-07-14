@@ -1,0 +1,29 @@
+SQL> select * from Movies;
+
+  MOVIE_ID TITLE                      YEAR STUDIO
+---------- -------------------- ---------- --------------------
+         1 kong                          1 Universal
+         2 tron                          2 Universal
+         3 lawn                          3 Pixar
+         4 Moana                         4 Disney
+         5 Dawn                          5 Warner
+
+SQL> select * from Actors;
+
+  ACTOR_ID NAME                 NATIONALITY
+---------- -------------------- --------------------
+        10 Ryan                 USA
+        20 Michael              USA
+        30 Chadwick             USA
+        40 Tom Hanks            USA
+        50 Bong                 USA
+
+SQL> select * from StarsIn;
+
+  ACTOR_ID   MOVIE_ID CHARACTER
+---------- ---------- --------------------
+        10          1 God
+        20          2 Sauron
+        30          3 Mufasa
+        40          4 Scar
+        50          2 Private Ryan
